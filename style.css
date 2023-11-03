@@ -1,13 +1,48 @@
-<<<<<<< HEAD
+.middlesection {
+  padding: 40px 0;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
-h1 {
+.highlightedText {
   font-family: "Roboto", sans-serif;
-  margin: 1em 0em;
-  line-height: 1.5em;
   text-align: center;
-  font-weight: 700;
-  font-size: 42px;
+  font-weight: bold;
+  font-size: 9em;
   color: transparent;
   background: linear-gradient(
     to left,
@@ -18,7 +53,6 @@ h1 {
     #e02cbf,
     #1e5799
   );
-  background-size: 1000px 100%;
   animation: bg 15s linear infinite;
   background-clip: text;
   -webkit-background-clip: text;
@@ -32,43 +66,3 @@ h1 {
     background-position-x: 10000px;
   }
 }
-=======
- .middlesection {
-    background-color: #f4f4f4;
-    padding: 40px 0;
-}
-
-.card {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    transition: transform 0.2s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-.card-img-top {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.card-title {
-    font-size: 20px;
-}
-
-.card-text {
-    font-size: 14px;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
-}
->>>>>>> fb5bab82e87d7569b1313ed6f289230bcc8efde8
